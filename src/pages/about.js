@@ -1,12 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from '../components/card';
 
-const SecondPage = () => (
+
+const About = () => (
   <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <h1>About me</h1>
+    <p>Hi there</p>
     <Link to="/">Go back to the homepage</Link>
   </div>
 )
 
-export default SecondPage
+export default About
