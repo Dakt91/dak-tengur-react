@@ -1,0 +1,47 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 48px 0;
+    z-index: 100;
+    transition: 0.8s cubic-bezier( 0.2, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled {
+    background: rgba(255,255,255, 1);
+    width: 100%;
+    padding: 16px 0;
+}
+
+.HeaderGroup {
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    align-items: center;
+    justify-items: center;
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+}
+
+.Header button {
+    padding: 8px 20px;
+    color: blue;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 48px;
+    outline: none;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .Header {
+        padding: 16px 0;
+    }
+}
+
+.HeaderScrolled a {
+    color: blue;
+}
